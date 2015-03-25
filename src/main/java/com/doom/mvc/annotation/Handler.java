@@ -6,11 +6,11 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @author yuzhang <yu-zhang@tcl.com>
- * @date Mar 25, 2015 2:34:43 PM
+ * @author yuzhang <z99370324@gmail.com>
+ * 
  */
 
-@Target(value = ElementType.METHOD)
+@Target(value = ElementType.TYPE)
 @Retention(value = RetentionPolicy.RUNTIME)
 public @interface Handler {
 
